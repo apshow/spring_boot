@@ -15,11 +15,11 @@
 <body>
 
 <div th:align="center" class="tg">
-    <h1>This Is Admin Page</h1>
+    <h1>TAdmin Page</h1>
     <br/>
     <br/>
-    <h2>PHONE BOOK</h2>
-    <h3><a th:href="@{/admin/new}">Add new User</a></h3>
+    <h3>USERS</h3>
+
     <table border="1" cellpadding="5">
         <tr>
             <th>ID</th>
@@ -41,6 +41,7 @@
         </tr>
     </table>
     <br/>
+    <h4><a th:href="@{/admin/new}">New User</a></h4>
     <br/>
     <a th:href="@{/logout}">LOGOUT</a>
 </div>
